@@ -138,13 +138,6 @@ function App() {
                   <div>
                         <ItemTable  items={items} deleteItem={deleteItem} editRow={editRow} />
                   </div>
-              <ul>
-                  {items.map(obj => (
-                      <li key={obj.name}>
-                          {obj.name} {obj.price}
-                      </li>
-                  ))}
-              </ul>
             </div>
       </div>
   )
