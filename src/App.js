@@ -47,7 +47,14 @@ function App() {
 //-----------------------------------------------------------------//
 
 
-    const Data = []
+    const Data = [
+        {
+            id: 2,
+            name: "Проект 2",
+            status: "Completed",
+            employees: [ ]
+        }
+    ]
 
     const [items, setItems] = useState(Data)
     const [editing, setEditing] = useState(false)
