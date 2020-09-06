@@ -9,50 +9,6 @@ import EditItemForm from "./components/forms/editItemForm";
 
 
 function App() {
-    // //
-    // const [error, setError] = useState(null);
-    // const [isLoaded, setIsLoaded] = useState(false);
-    // const [obj, setObj] = useState([]);
-    //
-    // // Note: the empty deps array [] means
-    // // this useEffect will run once
-    // // similar to componentDidMount()
-    // useEffect(() => {
-    //     fetch("https://webhook.site/64fa91da-1daa-46f1-b321-7960f0e22e3c", {
-    //         mode: "no-cors"
-    //     })
-    //         .then(res => res.json())
-    //         .then(
-    //             (result) => {
-    //                 setIsLoaded(true);
-    //                 setItems(result.objs);
-    //             },
-    //             // Note: it's important to handle errors here
-    //             // instead of a catch() block so that we don't swallow
-    //             // exceptions from actual bugs in components.
-    //             (error) => {
-    //                 setIsLoaded(true);
-    //                 setError(error);
-    //             }
-    //         )
-    // }, [])
-    //
-    // // if (error) {
-    // //     return <div>Error: {error.message}</div>;
-    // // } else if (!isLoaded) {
-    // //     return <div>Loading...</div>;
-    // // } else {
-    // //     return (
-    // //         <ul>
-    // //             {items.map(item => (
-    // //                 <li key={item.name}>
-    // //                     {item.name} {item.price}
-    // //                 </li>
-    // //             ))}
-    // //         </ul>
-    // //     );
-    // // }
-    //
     //
     // function getData () {
     //     fetch('https://webhook.site/64fa91da-1daa-46f1-b321-7960f0e22e3c', {mode: 'no-cors'}).then(data => {
