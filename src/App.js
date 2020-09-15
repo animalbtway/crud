@@ -9,43 +9,6 @@ import EditItemForm from "./components/forms/editItemForm";
 
 
 function App() {
-    //
-    // function getData () {
-    //     fetch('https://webhook.site/64fa91da-1daa-46f1-b321-7960f0e22e3c', {mode: 'no-cors'}).then(data => {
-    //         return data
-    //     }).then(data => (console.log(data)))
-    // }
-    //
-    //
-    // function postData (id, name, status, employees)  {
-    //     fetch('https://webhook.site/64fa91da-1daa-46f1-b321-7960f0e22e3c', {
-    //         method : 'post',
-    //         mode: 'no-cors',
-    //         headers: {
-    //             'Accept' : 'application/json',
-    //             'Content-type' : 'application/json',
-    //         },
-    //         body: JSON.stringify( {
-    //             id: id,
-    //             name: name,
-    //             status: status,
-    //             employees: employees,
-    //         })
-    //     }).then(data => {
-    //         return data
-    //     })
-    // }
-    //
-    // function deleteData (id)  {
-    //     fetch('https://webhook.site/64fa91da-1daa-46f1-b321-7960f0e22e3c' + id, {
-    //         method : 'delete',
-    //     })
-    //         .then(res => res.text())
-    //         .then(res => console.log(res))
-    // }
-//-----------------------------------------------------------------//
-//-----------------------------------------------------------------//
-
 
     const Data = [
         {
